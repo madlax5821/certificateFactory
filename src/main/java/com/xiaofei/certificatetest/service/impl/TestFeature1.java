@@ -13,4 +13,8 @@ public class TestFeature1 {
     public void function3(){
         System.out.println("function 3 in feature 1 by Liam.");
     }
+
+    public void function2(){
+        System.out.println("function 2 in feature 1 by Saif.");
+    }
 }
