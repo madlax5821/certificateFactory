@@ -9,4 +9,8 @@ public class Feature2 {
     public void function2FromDanishFromMain(){
         System.out.println("function2FromDanishFromMain");
     }
+
+    public void function3FromDanishFromMain(){
+        System.out.println("function2FromDanishFromMain");
+    }
 }
