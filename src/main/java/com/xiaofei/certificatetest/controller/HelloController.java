@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String getHello(){
-        return "hello world";
+        return "小飞飞开发的第一个功能。";
+    }
+    
+    @GetMapping("/second")
+    public String secFunction(){
+        return "小飞飞的第二个功能上线";
     }
 }
